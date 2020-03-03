@@ -4,13 +4,17 @@ import './App.css';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting'
 import NameList from './components/NameList';
+import FocusInput from './components/FocusInput';
+
 function App() {
   return (
     <div className="App">
       {/* <ParentComponent/> */}
       {/* <UserGreeting/> */}
 
-      <NameList/>
+      {/* <NameList/> */}
+
+      <FocusInput/>
 
     </div>
   );
