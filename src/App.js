@@ -5,6 +5,7 @@ import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting'
 import NameList from './components/NameList';
 import FocusInput from './components/FocusInput';
+import ParentFRinput from './components/ParentFRinput'
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
 
       {/* <NameList/> */}
 
-      <FocusInput/>
+      {/* <FocusInput/> */}
+
+      <ParentFRinput/>
 
     </div>
   );
